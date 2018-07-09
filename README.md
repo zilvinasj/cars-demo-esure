@@ -10,7 +10,7 @@ Produce a Spring Boot REST API that reads in data from a JSON file and allows th
 
 The json file is located with all of the project files and is accessed by the application to get the data and store it in a List. It is then possible to access it by making an http request to localhost:8080/cars?colour=<b>blue</b>
 
-(input colour where blue is)
+(?colour=<b>colour</b> is optional and is used to filter cars by colour, to access all cars: localhost:8080/cars)
   
-The project itself is runnable in any IDE that supports Spring Boot. Some Tests can also be found which check if the http response is correct along with trying out a colour and checking if the JSON returned is what was expected
+The project itself is runnable in any IDE that supports Spring Boot. Run the Application class as a spring boot or java application. Some Tests can also be found which check if the http response is correct along with trying out a colour and checking if the JSON returned is what was expected.
 
